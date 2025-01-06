@@ -22,5 +22,7 @@ class RegistrationFactory extends Factory
             'lesson_id' => Lesson::inRandomOrder()->first()->id,
             'student_id' => Student::inRandomOrder()->first()->id,
         ];
+
+
     }
 }
