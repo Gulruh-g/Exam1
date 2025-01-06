@@ -20,5 +20,7 @@ class StudentFactory extends Factory
             'name' => fake()->firstName(),
             'surname' => fake()->lastName(),
         ];
+
+
     }
 }
