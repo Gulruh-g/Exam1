@@ -17,6 +17,8 @@ return new class extends Migration
             $table->foreign('parent_id')->references('id')->on('locations')->nullDelete();
             $table->string('name');
             $table->timestamps();
+
+
         });
     }
 
